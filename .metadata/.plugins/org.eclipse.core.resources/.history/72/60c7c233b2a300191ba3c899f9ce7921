@@ -1,0 +1,26 @@
+package chapter2;
+
+import java.util.Scanner;
+
+public class EX02_RecArea {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		
+
+Scanner sc = new Scanner(System.in);
+String name = "사각형의 넓이";
+System.out.println("가로를 입력해주세요 : ");
+double width = sc.nextDouble();
+System.out.println("세로를 입력해주세요 : ");
+double length = sc.nextDouble();
+double rectangleArea = width * length ;
+System.out.println("사각형의 넓이는" + rectangleArea + "입니다.");
+		
+		
+		
+	}
+
+}

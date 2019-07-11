@@ -1,0 +1,15 @@
+/*실수형 데이터타입
+ * 
+ * float(4b) : 부호비트1 지수부8 가수부23 
+ * double(8b) : 부호비트1, 지수부11, 가수부52
+*/
+package chapter2;
+
+public class A03_Double {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,14 @@
+/*실수형 데이터타입
+ * 
+ * float(4b), double(8b)
+*/
+package chapter2;
+
+public class A03_Double {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

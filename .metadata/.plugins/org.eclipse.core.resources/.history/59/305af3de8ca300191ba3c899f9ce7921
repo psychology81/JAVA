@@ -1,0 +1,13 @@
+package chapter2;
+
+public class A01_Variable1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int level = 10;  // 정수형 변수 level 선언
+		// level = 10;  // 값은 10
+		System.out.println(level); // level 값 출력 
+		
+	
+ } // end of main ()
+} // end of class ()

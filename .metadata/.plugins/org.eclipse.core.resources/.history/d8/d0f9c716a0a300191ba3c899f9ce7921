@@ -1,0 +1,52 @@
+/*데이터타입
+1)	기본자료형 : 기본 라이브러리에서 제공되는ㄷ ㅔ이터타입
+정수형, : byte(=1byte), shrot(=2b), int(=4b), long(=8b)
+문자형, : char(=1b)
+실수형 : float(=4b), double(=4b)
+논리형 : boolean(t/f) / //컨트롤+쉬프트+/ 같이 누르면 한 번에 주석처리가능
+// 컨트롤 + / 하면 그 행이 주석처리됨 (다시 누르면 행주석처리 사라짐) 
+*/
+
+
+package chapter2;
+
+public class A02_character {
+
+	public static void main(String[] args) {
+		byte b_num1 = 127; //byte 타입 : -2^15~2^15-1 즉 -128~127 까지의 범위만 표현가능 
+		System.out.println(b_num1);
+		
+		short s_num = 32767;
+		// short 의 유효숫자범위는 -2^31 ~ 2^31-1 까지 가능 
+		// -2147483648 ~ 2147483647 까지
+		System.out.println(s_num); // 컨트롤 + 스페이스 누르면 sysout만 쳐도 완성
+		
+		// long 의 유효숫자 범위 -2^63 ~ 2^63-1
+		
+		int i_num3 = -2147483648;
+		System.out.println(Integer.MIN_VALUE);
+		System.out.println(Integer.MAX_VALUE);
+
+		System.out.println(Short.MIN_VALUE);
+		System.out.println(Short.MAX_VALUE);
+		
+		short sval = 1; 
+		int ival = 1;
+		double dval = 1.0;
+		float fval = 1.0f;
+		System.out.println(ival + fval);
+		// 정수형보다는 실수형의 범위가 더넓다 정수형+실수형 혼합연산시 실수형으로 계산된다//
+		
+		System.out.println("short형과 int형의 혼합연산"+sval + ival);
+		// ---> 문자열을 집어넣으면 계산하는 연산자가 아니라 그냥 뒤따라나오는..
+		// 결과값 : short형과 int형의 혼합연산11
+		System.out.println("short형과 int형의 혼합연산"+(sval + ival));
+		// 결과값 : short형과 int형의 혼합연산2
+		// 서로 다른 타입의  데이터를 계산할 때 , 어떤식으로 처리될것인가 . . . . 
+        // 연산 결과는 범위가 큰 쪽으로 변환되어 처리된다 .  
+		
+		char ch1 = 'A';
+		System.out.println(ch1);
+ 	}
+
+}

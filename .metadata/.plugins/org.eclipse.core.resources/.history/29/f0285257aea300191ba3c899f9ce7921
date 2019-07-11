@@ -1,0 +1,15 @@
+package chapter2;
+
+import java.util.Scanner;
+
+public class EX01_computeAge {
+
+//1.이름과 생년월일을 입력받아 ~~~ 님의 나이는 ~~~ 세 입니다.
+	
+	
+Scanner sc = new Scanner(System.in);
+		String name = "당신의 이름은"
+		
+		
+				
+}

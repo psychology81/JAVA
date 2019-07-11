@@ -1,0 +1,20 @@
+/*데이터타입
+1)	기본자료형 : 기본 라이브러리에서 제공되는ㄷ ㅔ이터타입
+정수형, : byte, shrot, int, long
+문자형, : char
+실수형 : float, double
+논리형 : boolean*/ //컨트롤+쉬프트+/ 같이 누르면 한 번에 주석처리가능
+// 컨트롤 + / 하면 그 행이 주석처리됨 (다시 누르면 행주석처리 사라짐) 
+
+
+
+package chapter2;
+
+public class A02_character {
+
+	public static void main(String[] args) {
+		byte b_num1 = 127;
+		System.out.println(b_num1);
+	}
+
+}

@@ -1,0 +1,17 @@
+package chapter2;
+
+public class A01_Variable1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int level = 10;  // 정수형 변수 level 선언
+		// level = 10;  // 값은 10
+		System.out.println(level); // level 값 출력 
+		
+		
+		// 문자변수 선언과 값의 대입
+		char chval = 'A'; //캐릭터타입은 '' 로, " 아님. 즉 문자변수는 작은따옴표로 감싼다 
+		System.out.println(chval); 
+	
+ } // end of main ()
+} // end of class ()

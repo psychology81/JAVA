@@ -1,0 +1,28 @@
+/* 
+ * 상수 : 프로그램에서 변하지 않는 숫자. 항상 변하지 않는 값. 항상 일정한 값. 
+ * 자바에서는 final 이라는 키워드를 사용해서 선언한다
+ * 리터럴 : 프로그램에서 사용하는 모든 숫자, 문자, 논리값을 일컫는 말
+ * 보통은 대입 연산자의 오른쪽에 쓰여자는 값을 이야기한다 
+ * 'A', 10, 3.14595 이런식으로 .... . . . . .
+ * 
+ */
+
+package chapter2;
+
+public class A05_constant {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		final int max_num = 1000;
+		final double pi = 3.141592;
+		System.out.println(max_num);
+		System.out.println(pi);
+		System.out.println(1+max_num);
+		
+		
+		// 
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+/*데이터타입
+1)	기본자료형 : 기본 라이브러리에서 제공되는ㄷ ㅔ이터타입
+정수형, : byte, shrot, int, long
+문자형, : char
+실수형 : float, double
+논리형 : boolean*/ //컨트롤+쉬프트+/ 같이 누르면 한 번에 주석처리가능
+// 컨트롤 + / 하면 그 행이 주석처리됨 (다시 누르면 행주석처리 사라짐) 
+
+
+
+package chapter2;
+
+public class A02_character {
+
+	public static void main(String[] args) {
+		byte b_num1 = 127; //byte 타입 : -2^15~2^15-1 즉 -128~127 까지의 범위만 표현가능 
+		System.out.println(b_num1);
+		
+		short s_num = -32768;
+		// short 의 유효숫자범위는 -2^31 ~ 2^31-1 까지 가능 
+		System.out.println(s_num); // 컨트롤 + 스페이스 누르면 sysout만 쳐도 완성
+	
+ 	}
+
+}
