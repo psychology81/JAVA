@@ -1,0 +1,12 @@
+package chapter3;
+
+public class A03_logical {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println((10>5)&&(3>1));
+		
+		 
+	}
+
+}

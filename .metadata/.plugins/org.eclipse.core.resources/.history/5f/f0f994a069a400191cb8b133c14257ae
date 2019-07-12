@@ -1,0 +1,27 @@
+/*
+ * A08_BitOperator
+ * 비트 논리 연산자 : &, |, ^, ~
+ * 비트 이동 연산자(시프트연산자) : <<, >>, >>>  
+ */
+
+
+package chapter3;
+
+public class A06_Bit {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		
+		 int number = 5 ;
+		 System.out.println(number);
+		 
+		 int number = 0b101;
+		 System.out.println(number );
+		
+		
+		
+		
+	}
+
+}

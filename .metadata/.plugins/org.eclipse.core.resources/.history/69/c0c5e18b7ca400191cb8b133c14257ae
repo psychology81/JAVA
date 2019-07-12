@@ -1,0 +1,27 @@
+package chapter4;
+
+public class E01 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		// 연령에 따라서 입장료를 달리받는다
+		  //  0~10살 이하 = 1000원
+		  //  11~20살 이해 = 2천원
+		  //  21세 이상 = 3천원
+		
+		
+	 int age = 10;
+	 int money;
+	 if(age <= 10) {
+		 money = 1000;
+	 } else if(age <= 20)  {
+	     money = 2000; {
+	 } else {
+		 money = 3000; 
+	 }
+		 System.out.println("입장료는" + money + "원입니다.");
+		 }
+
+	 
+	

@@ -1,0 +1,36 @@
+package chapter3;
+
+import java.util.Scanner;
+
+public class EX01_namescore {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc = new Scanner(System.in);
+		double language, english, math;
+		double sumScore, avrScore;
+		
+		String name = sc.next();
+		System.out.println("이름을 입력하세요");
+		
+		System.out.println("국어 점수 입력");
+		language = sc.nextDouble();
+		
+		System.out.println("영어 점수 입력");
+		english = sc.nextDouble();
+		
+		System.out.println("수학 점수 입력");
+		math = sc.nextDouble();
+
+		// 입력받은 가로, 세로길이를 이용하여 면적 계산
+		sumScore = (language + english + math);
+		avrScore = (3/(language + english + math));
+
+		// 계산된 결과를 출력
+		System.out.println(name + "의 총점은" + sumScore + "점," +"평균" + avrScore + "점 입니다.");
+	
+		
+	}
+
+}

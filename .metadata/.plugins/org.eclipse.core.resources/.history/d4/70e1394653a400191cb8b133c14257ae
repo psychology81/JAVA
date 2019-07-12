@@ -1,0 +1,25 @@
+/*
+ * 관계연산자 
+ *  76쪽 
+ * 
+ * 
+ */
+
+package chapter3;
+
+public class A02_realationalOperator {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println(10 > 5);  // 값은 true 로 나옴
+		System.out.println(10 < 5);
+		
+		
+		
+		
+		//
+
+	}
+
+}

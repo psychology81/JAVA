@@ -1,0 +1,30 @@
+/*
+ * A07_ConditionalOperator
+ * 조건연산자
+ * 조건식?결과1:결과2;  조건식이 참이면 결과1 조건식이 거짓이면 결과2가 선택됨. 
+ */
+
+
+package chapter3;
+
+public class A05_Conditional {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		
+		// if 문을 사용해서 조건식을 더 간단하게 표현할 수 있어
+		
+		int result;
+		result = (10>5)? 100 : 999 ;  // 그니까 리절트값은 결과 1이거나 2임
+		System.out.println(result);
+		
+		
+		int result;
+		result = (10<5)? 100 : 999 ;  // 그니까 리절트값은 결과 1이거나 2임
+		System.out.println(result);
+		
+
+	}
+
+}
